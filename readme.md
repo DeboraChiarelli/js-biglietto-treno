@@ -1,13 +1,25 @@
 # Calcolo del prezzo del biglietto del treno
-- Chiedere all'utente il numero di chilomtri che vuole percorrere:
+- Chiedere all'utente il numero dei chilometri che vuole percorrere:
     - dichiarare una variabile
     - assegnare alla variabile il valore costituito da un prompt
 - Chiedere l'età del passeggero:
     - dichiarare una variabile
     - assegnare alla variabile il valore costituito da un prompt
-- Calcolare il prezzo totale del viaggio:
-    - applicare sconto del 20% per i minorenni
-    - applicare sconto del 40% per gli over 65
+- Definire prezzo per chilometro:
+  - assegnare alla variabile un valore
+- Assegnare alla variabile per lo sconto da appliccare ai minorenni un valore:
+- Assegnare alla variabile per lo sconto da applicare agli over 65 un valore:
+- Calcolare il prezzo pieno del biglietto
+- calcolare lo sconto del 20% per i minorenni
+- calcolare lo sconto del 40% per gli over 65
+- Calcolare il prezzo finale del viaggio:
+  - Applicare sconto del 20% per gli under 18:
+      - SE il passeggero sarà minorenne
+        - applicherò lo sconto per gli Under18
+      - SE il passeggero sarà over 65
+        - applicherò lo socnto per gli Over65
+      - SE il passeggero è tra i 18 e i 65 anni
+- Aggiungere cifra con massimo due decimali
 - Stampare un messaggio dentro h1:
     - inserire nell'html un tag h1 con l'id scelto
     - recuperare con js l'elemento del dom con l'id scelto
